@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Fitness</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        /* CSS RESET */
+
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url("bg.jpg");
+
+        }
+
+        .left {
+
+            display: inline;
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 20px;
+            left: 50px;
+
+        }
+
+        .left img {
+            background-color: black;
+            width: 110px;
+            height: 97px;
+
+        }
+
+        .mid {
+            display: block;
+            width: 32%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 22px;
+            /* border: 2px solid yellow; */
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 2px;
+            font-size: 18px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: grey;
+
+
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            margin: 2px 1px;
+            padding: 4px 20px;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 15px;
+            width: auto;
+            border-color: white;
+
+        }
+
+        .btn:hover {
+            background-color: grey;
+            text-decoration: underline;
+
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            margin: 50px -8px;
+            padding: 75px;
+            border-radius: 8px;
+            width: 33%;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 266px;
+            margin: 11px -2px;
+            padding: 3px;
+            border: 2px solid black;
+            border-radius: 8%;
+            font-size: 104%;
+        }
+        .container h1{
+            text-align: left;
+            margin:2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- left box for logo -->
+    <div class="left">
+
+        <img src="dumbell.png.jpeg" alt="">
+        <div>Shubham Fitness</div>
+
+
+    </div>
+    <!-- mid box for navigation bar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness center</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">Email us</button>
+
+    </div>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="non action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Job">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your loyality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
